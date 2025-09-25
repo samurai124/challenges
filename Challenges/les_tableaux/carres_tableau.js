@@ -4,6 +4,16 @@ let carees_tableau = [];
 for(let i = 0; i< 5 ;i++){
     tableau.push(parseInt(prompt("Entrer un nombre entier :")));
 }
-carees_tableau = tableau.map((element)=> element*el);
+
+
+
+
+
+
+
+
+
+
+carees_tableau = tableau.map((element)=> element*element);
 
 console.log(carees_tableau);
