@@ -3,7 +3,7 @@ let tableau = [];
 let isExist = false;
 let index ;
 let num_chercher ;
-for(let i = 0; i< 4 ;i++){
+for(let i = 0; i< 8 ;i++){
     tableau.push(parseInt(prompt("Entrer un nombre entier :")));
 }
 num_chercher = prompt("Entrez le numero à rechercher : ")
