@@ -30,7 +30,7 @@ classe.afficherEtudiants()
 // 4
 const livres = [
     { titre: "Le Seigneur des Anneaux", auteur: "J.R.R. Tolkien", annee: 1954 },
-    { titre: "1984", auteur: "George Orwell", annee: 1949 },
+    { titre: "A Song of Ice and Fire", auteur: "R. R. Martin ", annee:  2000 },
     { titre: "Harry Potter à l'école des sorciers", auteur: "J.K. Rowling", annee: 1997 }
 ];
 livres.map((element)=>{
@@ -45,4 +45,5 @@ function trouverLivre(titre){
 }
 
 console.log(trouverLivre('Le Seigneur des Anneaux'));
+
 
