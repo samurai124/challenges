@@ -3,7 +3,7 @@ const etudient = {
     nom : 'eren',
     age : 20,
     sePresenter(){
-        console.log(`"Bonjour, je m'appelle ${nom} et j'ai ${age} ans.`)
+        console.log(`Bonjour, je m'appelle ${nom} et j'ai ${age} ans.`)
     }
 }
 // 2
@@ -29,14 +29,15 @@ classe.afficherEtudiants()
 
 // 4
 const livres = [
-  { titre: "Le Seigneur des Anneaux", auteur: "J.R.R. Tolkien", annee: 1954 },
-  { titre: "1984", auteur: "George Orwell", annee: 1949 },
-  { titre: "Harry Potter à l'école des sorciers", auteur: "J.K. Rowling", annee: 1997 }
+    { titre: "Le Seigneur des Anneaux", auteur: "J.R.R. Tolkien", annee: 1954 },
+    { titre: "1984", auteur: "George Orwell", annee: 1949 },
+    { titre: "Harry Potter à l'école des sorciers", auteur: "J.K. Rowling", annee: 1997 }
 ];
 livres.map((element)=>{
     return console.log(element.titre);
 })
 // 5
+
 function trouverLivre(titre){
     return livres.find((element)=>{
         return element.titre == titre
