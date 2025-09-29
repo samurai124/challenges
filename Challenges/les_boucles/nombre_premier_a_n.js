@@ -7,3 +7,5 @@ for (let i = 2 ; i <= num ; i++){
     }
     if(isPremier) console.log(i);
 }
+
+

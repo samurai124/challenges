@@ -38,7 +38,7 @@ const employes = [
   { nom: "Claire", salaire: 4000 }
 ];
 
-const employe_3000 = employes.filter(e => e.salaire > 3000);
+const employe_3000 = employes.filter((e)=> e.salaire > 3000);
 
 console.log(employe_3000);
 
